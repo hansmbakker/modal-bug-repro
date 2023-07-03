@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:ModalBugRepro.ViewModels"
+             x:Class="ModalBugRepro.Views.ModalPage"
+             x:DataType="vm:ModalViewModel"
+             Shell.PresentationMode="ModalAnimated">
+    <VerticalStackLayout Margin="10">
+        <Label Text="Modal page"
+               FontSize="Header" />
+        <Label Text="This modal page is configured with Shell.PresentationMode=&#34;ModalAnimated&#34;" />
+        <Label Text="Open non-modal does not work as expected" />
+        <Label Text="The non-modal page slides in from the bottom and presents itself as a modal even though it is configured as Animated rather than ModalAnimated" />
+
+        <Button  Text="Open non-modal page"
+                 Command="{Binding ShowNonModalCommand}" />
+    </VerticalStackLayout>
+</ContentPage>

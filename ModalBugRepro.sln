@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33808.371
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModalBugRepro", "ModalBugRepro\ModalBugRepro.csproj", "{E34D7413-6536-494B-9914-6FACBD25619F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E34D7413-6536-494B-9914-6FACBD25619F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34D7413-6536-494B-9914-6FACBD25619F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34D7413-6536-494B-9914-6FACBD25619F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E34D7413-6536-494B-9914-6FACBD25619F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34D7413-6536-494B-9914-6FACBD25619F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34D7413-6536-494B-9914-6FACBD25619F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5468948E-F9C3-42F6-A229-90C989AFA8C4}
+	EndGlobalSection
+EndGlobal

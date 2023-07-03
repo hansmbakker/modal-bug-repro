@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:ModalBugRepro.ViewModels"
+             x:Class="ModalBugRepro.Views.MainPage"
+             x:DataType="vm:MainViewModel">
+    <VerticalStackLayout Margin="10">
+        <Label Text="This is the main page." />
+        <Label Text="&#34;Open modal&#34; works as expected." />
+        <Button  Text="Open modal page"
+                 Command="{Binding ShowModalCommand}" />
+    </VerticalStackLayout>
+</ContentPage>
