@@ -4,13 +4,14 @@
              xmlns:vm="clr-namespace:ModalBugRepro.ViewModels"
              x:Class="ModalBugRepro.Views.NonModalPage"
              x:DataType="vm:NonModalViewModel"
-             Shell.PresentationMode="Animated">    
-        <VerticalStackLayout Margin="10">
-            <Label Text="Non-modal page"
-                   FontSize="Header" />
-            <Label Text="This non-modal page is configured with Shell.PresentationMode=&#34;Animated&#34;" />
-            <Label Text="Opening a non-modal page from this non-modal page still does not work when it was first opened via a modal page" />
-            <Button  Text="Open non-modal page"
-                     Command="{Binding ShowNonModalCommand}" />
-        </VerticalStackLayout>
+             Shell.PresentationMode="Animated"
+             Title="Non-modal page">
+    <VerticalStackLayout Margin="10">
+        <Label Text="Non-modal page"
+               FontSize="Header" />
+        <Label Text="This non-modal page is configured with Shell.PresentationMode=&#34;Animated&#34;" />
+        <Label Text="Opening a non-modal page from this non-modal page still does not work when it was first opened via a modal page" />
+        <Button  Text="Open non-modal page"
+                 Command="{Binding ShowNonModalCommand}" />
+    </VerticalStackLayout>
 </ContentPage>
