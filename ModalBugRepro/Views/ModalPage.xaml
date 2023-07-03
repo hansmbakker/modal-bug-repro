@@ -4,7 +4,8 @@
              xmlns:vm="clr-namespace:ModalBugRepro.ViewModels"
              x:Class="ModalBugRepro.Views.ModalPage"
              x:DataType="vm:ModalViewModel"
-             Shell.PresentationMode="ModalAnimated">
+             Shell.PresentationMode="ModalAnimated"
+             Title="Modal page">
     <VerticalStackLayout Margin="10">
         <Label Text="Modal page"
                FontSize="Header" />
